@@ -1,0 +1,115 @@
+@media(max-width: 700px){
+	.container{
+		width: 600px;
+	}
+}
+
+@media(max-width: 600px){
+	.container{
+		width: 500px;
+	}
+}
+
+@media(max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+@media(max-width: 400px){
+	.container{
+		width: 300px;
+	}
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	color: rgb(24, 29, 49);
+	text-align: center;
+	background-image: url(images/pineapple.jpeg);
+}
+h1{
+	color: rgb(0, 157, 174);
+	font-size: 30px;
+}
+h2{
+	color:  powderblue;
+	font-size: 25px;
+}
+
+p {
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 200px;
+  margin: 0;
+  box-shadow: 0px 5px 5px lightgrey;
+}
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white{
+	background: white;
+	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+	border-radius: 5px;
+	width: 800px;
+	padding: 10px;
+	margin: 20px auto;
+}
+
+.card-white:hover{
+	transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+ 
+.list-inline i {
+	color: lightgrey;
+	font-size: 50px;
+}
+
+.list-inline i:hover {
+	color: #EBE645;
+}
+
+input[type=text] {
+	display: block;
+  width: 300px;
+  padding: 12px;
+  margin: 8px auto;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 300px;
+	padding: 12px;
+	margin: 8px, 0px;
+  background-color: rgb(0, 157, 174);
+  color: white;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.grid-container {
+  column-count: 2;
+  column-gap: 100px;
+}
